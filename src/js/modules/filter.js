@@ -7,6 +7,7 @@ const filter = () => {
 
     menu.addEventListener('click', (e) => {
         let target = e.target;
+        
         if (target && target.tagName == 'LI') {
 
             markAll.forEach(mark => {
